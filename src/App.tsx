@@ -1,6 +1,7 @@
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Layout } from './components/Layout';
 import { SubjectProvider } from './context/SubjectContext';
+import { Home } from './pages/Home';
 
 // Subject Index Pages
 import ScienceIndex from './pages/science/index';
@@ -12,11 +13,11 @@ function App() {
     <SubjectProvider>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Layout />}>
-            {/* Default Route */}
-            <Route index element={<Navigate to="/science" replace />} />
-            
-            {/* Base Subject Routes */}
+          {/* Home Route - No Layout */}
+          <Route path="/" element={<Home />} />
+          
+          {/* Subject Routes - Wrapped in Layout */}
+          <Route element={<Layout />}>
             <Route path="science" element={<ScienceIndex />} />
             <Route path="lal" element={<LALIndex />} />
             <Route path="ins" element={<INSIndex />} />
