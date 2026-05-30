@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { BookOpen, Globe, Atom } from 'lucide-react';
+import { Globe, Atom } from 'lucide-react';
 
 export function Home() {
   return (
@@ -9,7 +9,7 @@ export function Home() {
           MYP
         </div>
         <h1 className="text-4xl md:text-5xl font-extrabold text-slate-900 tracking-tight mb-4">
-          Year 5 Revision Hub
+          Grade 10 Revision Hub
         </h1>
         <p className="text-lg text-slate-600 max-w-2xl mx-auto">
           Welcome to your central study platform. Select a subject below to access your structured, interactive revision notes.
@@ -18,8 +18,8 @@ export function Home() {
 
       <div className="grid md:grid-cols-3 gap-6 max-w-5xl w-full px-4">
         {/* Science Card */}
-        <Link 
-          to="/science" 
+        <Link
+          to="/science"
           className="group bg-white rounded-2xl p-8 shadow-sm border border-slate-200 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col items-center text-center animate-in fade-in slide-in-from-bottom-4 duration-700 delay-100"
         >
           <div className="w-16 h-16 bg-blue-50 text-blue-600 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
@@ -30,7 +30,7 @@ export function Home() {
         </Link>
 
         {/* LAL Card */}
-        <Link 
+        {/* <Link 
           to="/lal" 
           className="group bg-white rounded-2xl p-8 shadow-sm border border-slate-200 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col items-center text-center animate-in fade-in slide-in-from-bottom-4 duration-700 delay-200"
         >
@@ -39,11 +39,11 @@ export function Home() {
           </div>
           <h2 className="text-2xl font-bold text-slate-800 mb-2">LAL</h2>
           <p className="text-slate-500">Language and Literature: literary devices and analysis.</p>
-        </Link>
+        </Link> */}
 
         {/* INS Card */}
-        <Link 
-          to="/ins" 
+        <Link
+          to="/ins"
           className="group bg-white rounded-2xl p-8 shadow-sm border border-slate-200 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col items-center text-center animate-in fade-in slide-in-from-bottom-4 duration-700 delay-300"
         >
           <div className="w-16 h-16 bg-amber-50 text-amber-600 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">

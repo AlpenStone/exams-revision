@@ -12,7 +12,7 @@ interface SidebarProps {
 }
 
 type SubjectConfig = {
-  id: 'science' | 'lal' | 'ins';
+  id: 'science' | 'ins';
   title: string;
   items: { id: string; label: string; icon: React.ReactNode }[];
 };
@@ -30,13 +30,13 @@ const subjects: Record<string, SubjectConfig> = {
       { id: 'radiation', label: 'Radiation', icon: <Zap className="w-5 h-5" /> },
     ]
   },
-  lal: {
-    id: 'lal',
-    title: 'LAL Notes',
-    items: [
-      { id: 'literary-devices', label: 'Literary Devices', icon: <BookOpen className="w-5 h-5" /> }
-    ]
-  },
+  // lal: {
+  //   id: 'lal',
+  //   title: 'LAL Notes',
+  //   items: [
+  //     { id: 'literary-devices', label: 'Literary Devices', icon: <BookOpen className="w-5 h-5" /> }
+  //   ]
+  // },
   ins: {
     id: 'ins',
     title: 'INS Notes',
