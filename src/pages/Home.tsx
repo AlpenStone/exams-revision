@@ -16,7 +16,7 @@ export function Home() {
         </p>
       </div>
 
-      <div className="grid md:grid-cols-3 gap-6 max-w-5xl w-full px-4">
+      <div className="grid md:grid-cols-2 gap-6 max-w-5xl w-full px-4">
         {/* Science Card */}
         <Link
           to="/science"
@@ -50,7 +50,7 @@ export function Home() {
             <Globe className="w-8 h-8" />
           </div>
           <h2 className="text-2xl font-bold text-slate-800 mb-2">INS</h2>
-          <p className="text-slate-500">Individuals and Societies: historical events and causes.</p>
+          <p className="text-slate-500">Causes of WW1, July Crisis, End of WW1, League of Nations</p>
         </Link>
       </div>
     </div>
