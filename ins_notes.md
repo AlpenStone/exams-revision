@@ -195,6 +195,7 @@ EOY Exam (OPVL & 2Cs):
 
 > Guiding questions below **NOT EXHAUSTIVE**
 
+For written sources (OPVL):
 **O**rigin 
 - What type of source is it?
 - Who created it?
@@ -216,4 +217,15 @@ EOY Exam (OPVL & 2Cs):
 - Is it objective or subjective? ​
 - Is there any evidence of bias? 
 
-Sample answer:
+
+For visual sources (2Cs):
+
+**C**ontext
+- What type of source is it?​
+- What is the source about?  What is it representing?​
+- Place the source in its historical context: What was happening at the time? (use dates, people, events as clues/indicators)​
+
+**C**omment
+- What is the overall message/meaning of the cartoon?​
+- What are we learning from this source about this event or time period?​
+- Refer to elements that can be seen in the source to illustrate the greater meaning of the source. This can be done by briefly discussing representations and linking them to the meaning.
