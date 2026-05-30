@@ -189,3 +189,31 @@ Limitations of the League:
 - Lack of military power: no army of its own, so it depended on member states to enforce decisions
 - Self-interest of major powers: Britain and France were concerned about their own national interests
 - Required all decisions in the League to be unanimous, which meant any nation involved could effectively block the League of Nations from taking action. 
+
+
+EOY Exam (OPVL & 2Cs):
+
+> Guiding questions below **NOT EXHAUSTIVE**
+
+**O**rigin 
+- What type of source is it?
+- Who created it?
+- Where is it from? ​
+- When was it created/published? 
+
+**P**urpose 
+- Who was the source intended for? (intended audience)
+- What is the objective of the source? (to persuade, to inform etc.) 
+
+**V**alue 
+- How useful is the source for a particular study?
+- Can the content of the source be verified elsewhere? ​
+- Is it peer reviewed? 
+
+**L**imitation 
+- How useful is the source for a particular study? ​
+- Is it a reliable/trustworthy source? ​
+- Is it objective or subjective? ​
+- Is there any evidence of bias? 
+
+Sample answer:
