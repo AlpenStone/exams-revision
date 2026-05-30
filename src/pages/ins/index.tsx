@@ -3,6 +3,7 @@ import { CausesWW1 } from './CausesWW1';
 import { JulyCrisis } from './JulyCrisis';
 import { EndWW1 } from './EndWW1';
 import { LeagueOfNations } from './LeagueOfNations';
+import { SourceAnalysis } from './SourceAnalysis';
 
 export default function INSIndex() {
   const { activeTopics } = useSubject();
@@ -14,6 +15,7 @@ export default function INSIndex() {
       {topic === 'july-crisis' && <JulyCrisis />}
       {topic === 'ww1-end' && <EndWW1 />}
       {topic === 'league-of-nations' && <LeagueOfNations />}
+      {topic === 'source-analysis' && <SourceAnalysis />}
     </div>
   );
 }
