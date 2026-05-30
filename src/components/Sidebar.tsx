@@ -2,9 +2,11 @@ import React, { useState, useRef, useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import {
   Dna, Users, GitMerge, Fingerprint, Bug, Zap,
-  Menu, ChevronLeft, BookOpen, Globe, ChevronUp
+  Menu, ChevronLeft, ChevronUp, FileText, Building2,
+  ShieldAlert, Road, Handshake
 } from 'lucide-react';
 import { useSubject } from '../context/SubjectContext';
+
 
 interface SidebarProps {
   isOpen: boolean;
@@ -41,11 +43,11 @@ const subjects: Record<string, SubjectConfig> = {
     id: 'ins',
     title: 'INS Notes',
     items: [
-      { id: 'ww1-causes', label: 'Causes & Road to WW1', icon: <Globe className="w-5 h-5" /> },
-      { id: 'july-crisis', label: 'The July Crisis', icon: <Zap className="w-5 h-5" /> },
-      { id: 'ww1-end', label: 'End of WW1', icon: <Users className="w-5 h-5" /> },
-      { id: 'league-of-nations', label: 'League of Nations', icon: <BookOpen className="w-5 h-5" /> },
-      { id: 'source-analysis', label: 'Source Analysis', icon: <Fingerprint className="w-5 h-5" /> }
+      { id: 'ww1-causes', label: 'Causes & Road to WW1', icon: <Road className="w-5 h-5" /> },
+      { id: 'july-crisis', label: 'The July Crisis', icon: <ShieldAlert className="w-5 h-5" /> },
+      { id: 'ww1-end', label: 'End of WW1', icon: <Handshake className="w-5 h-5" /> },
+      { id: 'league-of-nations', label: 'League of Nations', icon: <Building2 className="w-5 h-5" /> },
+      { id: 'source-analysis', label: 'Source Analysis', icon: <FileText className="w-5 h-5" /> }
     ]
   }
 };
